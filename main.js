@@ -116,7 +116,7 @@ WorldComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\fullstack\covid\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! D:\fullstack\project\covid\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -1021,7 +1021,7 @@ class NavComponent {
     }
 }
 NavComponent.ɵfac = function NavComponent_Factory(t) { return new (t || NavComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_1__["TranslateService"])); };
-NavComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavComponent, selectors: [["app-nav"]], outputs: { _dir: "_dir", loading: "loading" }, decls: 27, vars: 17, consts: [["id", "nav", 1, "navbar", "navbar-expand-lg", "navbar-light", "bg-white", "fixed-top", "padding-nav"], [1, "navbar-brand"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mRL-auto"], [1, "nav-item", "active"], [1, "nav-link"], [1, "sr-only"], [1, "nav-item"], [1, "rtlOrLtr", "mb", "px-3", "rounded-pill"], [3, "click", 4, "ngIf"], [3, "ngStyle"], [3, "click"]], template: function NavComponent_Template(rf, ctx) { if (rf & 1) {
+NavComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavComponent, selectors: [["app-nav"]], outputs: { _dir: "_dir", loading: "loading" }, decls: 27, vars: 17, consts: [["id", "nav", 1, "shadow", "navbar", "navbar-expand-lg", "navbar-light", "bg-white", "fixed-top", "padding-nav"], [1, "navbar-brand"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarNav", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mRL-auto"], [1, "nav-item", "active"], [1, "nav-link"], [1, "sr-only"], [1, "nav-item"], [1, "rtlOrLtr", "mb", "px-3", "rounded-pill"], [3, "click", 4, "ngIf"], [3, "ngStyle"], [3, "click"]], template: function NavComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
