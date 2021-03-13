@@ -2358,5 +2358,23 @@ table.dataTable thead .sorting_desc_disabled:before {
 #sec-bg .bg-white .text-center {
   font-size: 14px !important;
 }
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.07) !important;
+}
+.not-found {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #F7F9FE;
+  color: #000 !important;
+}
+.not-found i {
+  font-size: 50px;
+}
+.not-found p {
+  font-weight: 500 !important;
+  font-size: 30px;
+}
 
 /*# sourceMappingURL=styles.css.map*/
