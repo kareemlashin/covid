@@ -81,7 +81,7 @@ class WorldComponent {
     }
 }
 WorldComponent.ɵfac = function WorldComponent_Factory(t) { return new (t || WorldComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_core_data_service__WEBPACK_IMPORTED_MODULE_1__["DataService"])); };
-WorldComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WorldComponent, selectors: [["app-world"]], decls: 6, vars: 4, consts: [[1, "container", "py-5"], [1, "text-center", "py-5"], ["class", "row", 4, "ngFor", "ngForOf"], [1, "row"], [1, "col-md-4", "my-2"], [1, "bg-img-sectio", "border-sec-one", "p-5", "shadow", "text-center", "border-10", "border-bottom-second"], [1, "text-center"], ["id", "confirmed-eg", 1, "text-center"], [1, "bg-img-sectio", "border-sec-one", "p-5", "shadow", "text-center", "border-10", "border-bottom-first"], ["id", "deathseg-eg", 1, "text-center"], ["id", "recovered-eg", 1, "text-center"]], template: function WorldComponent_Template(rf, ctx) { if (rf & 1) {
+WorldComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WorldComponent, selectors: [["app-world"]], decls: 6, vars: 4, consts: [[1, "container", "py-5", "d-block"], [1, "text-center", "py-5"], ["class", "row ", 4, "ngFor", "ngForOf"], [1, "row"], [1, "col-md-4", "my-2"], [1, "bg-img-sectio", "border-sec-one", "p-5", "shadow", "text-center", "border-10", "border-bottom-second"], [1, "text-center"], ["id", "confirmed-eg", 1, "text-center"], [1, "bg-img-sectio", "border-sec-one", "p-5", "shadow", "text-center", "border-10", "border-bottom-first"], ["id", "deathseg-eg", 1, "text-center"], ["id", "recovered-eg", 1, "text-center"]], template: function WorldComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2", 1);
@@ -1024,7 +1024,6 @@ class NavComponent {
     ngOnInit() {
         let ele = document.getElementById("nav");
         let navH = ele === null || ele === void 0 ? void 0 : ele.clientHeight;
-        console.log(navH);
         this.Margin = navH;
     }
     useLanguage(lan) {
